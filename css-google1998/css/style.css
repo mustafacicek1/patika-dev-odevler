@@ -1,0 +1,50 @@
+body {
+    margin: 8px 90px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.container {
+    text-align: center;
+}
+
+.search-form {
+    background-color: #EEEEEE;
+    margin:0;
+}
+
+.search-form>input {
+    width: 22%;
+}
+
+.card-1 {
+    padding: 11px;
+    margin: 1px 0;
+    background-color: #7EE5DA;
+    width: 36%;
+    float: left;
+}
+
+.card-2 {
+    padding: 5px;
+    font-size: 14px;
+    margin: 1px 2px;
+    float: left;
+    width: 20%;
+    background-color: #70CCC2;
+}
+
+.card-3 {
+    background-color: #62B3AA;
+    float: left;
+    margin: 1px 0;
+    width: 41.34%;
+    font-size: 14px;
+}
+
+.clear {
+    clear: both;
+}

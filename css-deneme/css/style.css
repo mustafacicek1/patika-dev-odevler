@@ -1,0 +1,56 @@
+/*General*/
+
+body {
+text-align: center;
+background-color: #E5E3C9;
+}
+
+ol,ul {
+    list-style-position: inside;
+}
+
+h2,h3,h4 {
+    color: #085E7D;
+    font-family: 'Syne Mono', monospace;
+}
+
+p,.fs-18 {
+    font-size: 18px;
+}
+
+/*Nav Styles*/
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu>li {
+    display: inline;
+
+}
+
+.menu>li>a {
+    padding: .2em 1em;
+    color: #ac610d;
+}
+
+.nav-title {
+    color: #D82148;
+    text-transform: uppercase;
+    font-family: 'Syne Mono', monospace;
+    font-size: 40px;
+}
+
+/*About*/
+
+.text-left{
+    text-align: left;
+}
+/*Product*/
+
+img {
+    width: 350px;
+    height: 400px;
+}

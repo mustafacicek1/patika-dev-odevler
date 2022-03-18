@@ -1,0 +1,21 @@
+.list-style {
+    list-style-position: inside;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Syne Mono', monospace;
+    color: #E83A14;
+}
+
+a.hover-green:hover {
+    background-color: green;
+}
+
+.card>img {
+height: 400px;
+width: auto;
+}
+
+.card:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
