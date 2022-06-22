@@ -15,3 +15,9 @@ WHERE (rental_rate = (SELECT MIN(rental_rate) FROM film)
 --payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
 SELECT COUNT(payment_id),(SELECT first_name FROM customer WHERE payment.customer_id=customer.customer_id) FROM payment 
 GROUP BY customer_id ORDER BY COUNT(payment_id) DESC;
+
+--2.Yol
+SELECT COUNT(*),CONCAT(customer.first_name,' ',customer.last_name) AS full_name FROM payment
+INNER JOIN customer ON customer.customer_id = payment.customer_id
+GROUP BY full_name
+ORDER BY COUNT(*) DESC;
